@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" text="text/css" href="style.css"/>    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logga in formulär</title>
+</head>
+<body>
+ <!--- div class kort med allt innehåll  -->
+    <div class="card">
+        <!-- Vänster sida av kortet  -->
+        <div class="left-row">
+        </div>
+        <!--- höger sida av kortet -->
+        <div class="right-row">
+            <h1>Logga in</h1>
+            <!-- alla inputs finns innanför denna form  -->
+            <form>
+                <section>
+                <label for="Förnamn"></label>
+                <input type="Förnamn" id="Förnamn" name="Förnamn" placeholder="Förnamn">
+                <label for="Efternamn"></label>
+                <input type="text" id="Efternamn" name="Efternamn" placeholder="Efternamn">
+                    </section>
+                    
+                    <section>
+                <label for="Telefonnummer"></label>
+                <input type="text" id="Telefonnummer" name="Telefonnummer" placeholder="Telefonnummer">
+                <label for="Email"></label>
+                <input type="text" id="Email" name="Email" placeholder="Mejl@adress.se">
+                     </section>
+
+                     <section>
+                <label for="Lösenord">Lösenord</label>
+                <input type="Lösenord" id="Lösenord" name="Lösenord" placeholder="*******">
+                <label for="Bekräfta lösenord">Bekräfta lösenord</label>
+                <input type="Bekräfta lösenord" id="Bekräfta lösenord" name="Bekräfta lösenord" placeholder="*******">
+                     </section>
+
+                     <!-- skapa konto och logga in knappar -->
+                     <section>
+                        <button>Skapa konto</button>
+                        <p>Har du redan ett konto?</p>
+                        <a href="#">Logga in</a>
+                     </section>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
